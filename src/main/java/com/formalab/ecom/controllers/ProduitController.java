@@ -69,7 +69,7 @@ public class ProduitController {
 		produitService.deleteById(id);
 	}
 
-	@PreAuthorize("hasAuthority('client')")
+	@PreAuthorize("hasAuthority('ADMIN')")
 	@PostMapping(path = "categorie/{idCategorie}")
 	public void saveProduitCategorie(@PathVariable long idCategorie, @RequestBody Produit produit) {
 		produitService.saveProduitCategorie(idCategorie, produit);
