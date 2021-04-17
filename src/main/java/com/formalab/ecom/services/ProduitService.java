@@ -12,7 +12,6 @@ import org.springframework.stereotype.Service;
 
 import com.formalab.ecom.entities.Categorie;
 import com.formalab.ecom.entities.Produit;
-import com.formalab.ecom.exceptions.NotFoundException;
 import com.formalab.ecom.repositories.ProduitRepository;
 
 @Service

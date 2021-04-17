@@ -58,7 +58,6 @@ public class Categorie {
 
 	public Categorie() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override
